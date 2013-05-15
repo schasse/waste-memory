@@ -7,16 +7,15 @@ require "waste-memory/version"
 Gem::Specification.new do |s|
   s.name        = "waste-memory"
   s.version     = WasteMemory::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of WasteMemory."
-  s.description = "TODO: Description of WasteMemory."
+  s.authors     = ["schasse"]
+  s.email       = ["sebastian.schasse@gapfish.com"]
+  s.homepage    = "http://github.com/schasse/waste-memory"
+  s.summary     = "This gem wastes your memory, honestly!"
+  s.description = "You can call your-domain.com/big_job to waste memory"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] +
+    ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.2.13"
-
-  s.add_development_dependency "sqlite3"
+  s.add_dependency "rails", "~> 3.2.12"
 end
