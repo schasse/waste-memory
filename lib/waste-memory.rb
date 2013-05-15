@@ -1,8 +1,5 @@
-module WasteMemory
+require 'waste-memory/engine'
+require 'waste-memory/version'
 
-  def self.waste_256_mb_memory
-    # create 256mb big string
-    mb = '1'
-    28.times { mb += mb }
-  end
+module WasteMemory
 end
