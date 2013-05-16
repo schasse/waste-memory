@@ -1,2 +1,2 @@
-Rails.application.routes.draw do
+WasteMemory::Engine.routes.draw do
 end

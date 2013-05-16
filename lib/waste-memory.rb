@@ -1,5 +1,4 @@
-require 'waste-memory/engine'
-require 'waste-memory/version'
+require "waste-memory/engine"
 
 module WasteMemory
 end
