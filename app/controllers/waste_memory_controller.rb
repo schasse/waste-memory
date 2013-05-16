@@ -1,7 +1,6 @@
 class WasteMemoryController < ActionController::Base
   def waste_memory
-    # create 256mb big string
     mb = '1'
-    27.times { mb += mb }
+    30.times { mb += mb }
   end
 end
