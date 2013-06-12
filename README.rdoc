@@ -12,10 +12,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install yaga
-
 ## Usage
 
 add following line to your routes.rb
