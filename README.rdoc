@@ -1,4 +1,5 @@
 = WasteMemory
+{<img src="https://travis-ci.org/schasse/waste-memory.png?branch=travis" alt="Build Status" />}[https://travis-ci.org/schasse/waste-memory]
 
 Finally a gem which wastes just your memory!
 
